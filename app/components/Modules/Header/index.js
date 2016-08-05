@@ -26,6 +26,12 @@ const Header = () => (
           Async page example
         </Link>
       </li>
+
+      <li>
+        <Link to="/reduceless-example">
+          Reduceless example
+        </Link>
+      </li>
     </ul>
   </div>
 );

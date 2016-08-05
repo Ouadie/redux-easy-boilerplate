@@ -3,6 +3,18 @@ import { createReducer } from '../../utils/createReducer';
 // Spinner hidden by default
 const initialState = {
   spinnerAsyncPage: false,
+
+  // example for reduceless connect
+  // see in Containers/ReducelessExample
+  settings: {
+    showExampleText1: false, // simple example
+    showExampleText2: false, // simple example
+    example3: [{ // array example
+      show: false,
+    }, {
+      show: false,
+    }],
+  },
 };
 
 // For async components

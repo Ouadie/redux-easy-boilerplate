@@ -6,6 +6,7 @@ import { asyncComponent } from './utils/asyncComponent'; /* for async page, show
 import Root from './components/Root';
 import Posts from './components/Containers/Posts';
 import About from './components/Containers/About';
+import ReducelessExample from './components/Containers/ReducelessExample';
 
 export default (
   <Route path="/" component={Root}>
@@ -19,5 +20,6 @@ export default (
 
     <Route path="/posts" component={Posts} />
     <Route path="/about" component={About} />
+    <Route path="/reduceless-example" component={ReducelessExample} />
   </Route>
 );

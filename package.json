@@ -124,7 +124,8 @@
     "webpack-dev-server": "2.0.0-beta",
     "webpack-hot-middleware": "2.12.2",
     "webpack-merge": "0.14.1",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "1.0.0",
+    "reduceless-connect": "github:anorudes/reduceless-connect"
   },
   "dependencies": {
     "babel-preset-react-hmre": "1.1.1",

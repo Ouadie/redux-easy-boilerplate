@@ -18,6 +18,8 @@ export function promiseMiddleware(config = {}) {
     const dispatch = _ref.dispatch;
 
     return next => action => {
+      if (!action) return false;
+
       if (!isPromise(action.payload)) {
         return next(action);
       }
